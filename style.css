@@ -4,5 +4,7 @@
 @media(max-width:640px){.site-header{padding:21px 20px}nav{gap:14px;font-size:10px}.wordmark{font-size:14px}.mark{width:23px;height:23px}.hero{padding:58px 20px 0}h1{letter-spacing:-1.2px;font-size:34px}.desktop-break{display:none}.eyebrow{font-size:9px;letter-spacing:1.5px}.hero-rule{margin-top:46px;font-size:7px;letter-spacing:1px;gap:12px}.results-section{padding:43px 16px 0}.section-heading p{font-size:14px}.comparison-card img{min-width:740px}.comparison-card figcaption{padding:13px 16px}.comparison-list{gap:15px}.mobile-hint{display:block;font-size:11px;color:var(--muted);margin-top:15px}.guidance-section{margin-top:45px;padding-top:38px;padding-bottom:45px}.guidance-card{padding:12px}.guidance-card img{min-width:650px}.guidance-card figcaption{font-size:11px}footer{margin:0 16px;padding:23px 0;flex-wrap:wrap;gap:12px;font-size:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
-.animation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.animation-card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.ablation-section{margin-top:60px;padding-top:49px;border-top:1px solid var(--line)}
-@media(max-width:640px){.animation-grid{grid-template-columns:1fr;gap:15px}.animation-card{max-width:400px;width:100%;margin:auto}.ablation-section{margin-top:45px;padding-top:38px}}
+.animation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.animation-card{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.ablation-section{margin-top:60px;padding-top:49px;border-top:1px solid var(--line)}
+@media(max-width:640px){.animation-grid{gap:8px}.ablation-section{margin-top:45px;padding-top:38px}}
+
+.animation-card img{width:100%;max-width:100%;min-width:0;height:auto}

@@ -3,36 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="DragPhysSVG: Structured Particle Dynamics for SVG Animation. Anonymous project page with visual comparisons and guidance strength results.">
+  <meta name="description" content="DragPhysSVG: Structured Particle Dynamics for SVG Animation. Anonymous project page with animation results, visual comparisons, ablation studies, and guidance strength results.">
   <meta name="theme-color" content="#fafbf8">
   <title>DragPhysSVG: Structured Particle Dynamics for SVG Animation</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#comparison">Skip to results</a>
+  <a class="skip-link" href="#animations">Skip to results</a>
   <main>
     <section class="hero" aria-labelledby="title">
       <h1 id="title"><span>DragPhysSVG</span><span class="title-colon">:</span><br>Structured Particle Dynamics<br class="desktop-break"> for SVG Animation</h1>
       <p class="authors">Anonymous Authors</p>
-      <div class="hero-links"><a class="primary-link" href="#comparison">Explore the results <span aria-hidden="true">↘</span></a></div>
+      <div class="hero-links"><a class="primary-link" href="#animations">Explore the results <span aria-hidden="true">↘</span></a></div>
+    </section>
+
+    <section class="results-section" id="animations" aria-labelledby="animations-title">
+      <div class="section-heading"><span class="section-number">01 / ANIMATION RESULTS</span><h2 id="animations-title">Animation Results</h2><p>Animations under gravity using a sand material model.</p></div>
+      <div class="animation-grid">
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/animations/1f419-twemoji_anim.gif" width="512" height="512" alt="Octopus animation under gravity using a sand material model." fetchpriority="high"></div></figure>
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/animations/balloon_dog_anim.gif" width="512" height="512" alt="Balloon dog animation under gravity using a sand material model." loading="lazy"></div></figure>
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/animations/snowman_anim.gif" width="512" height="512" alt="Snowman animation under gravity using a sand material model." loading="lazy"></div></figure>
+      </div>
     </section>
 
     <section class="results-section" id="comparison" aria-labelledby="comparison-title">
-      <div class="section-heading"><span class="section-number">01 / COMPARISONS</span><h2 id="comparison-title">Comparison with physical-video<br class="desktop-break"> generation methods</h2><p>We compare against both physical-video generation methods, <strong>PhysCtrl</strong> and <strong>Force Prompting</strong>, using the same input and drag.</p></div>
+      <div class="section-heading"><span class="section-number">02 / COMPARISONS</span><h2 id="comparison-title">Comparison with other methods</h2><p>We compare against two physical-video generation methods, <strong>PhysCtrl</strong> and <strong>Force Prompting</strong>, as well as <strong>AniClipart</strong>.</p></div>
       <div class="comparison-list">
-        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/1f40a-twemoji_left.gif" width="1458" height="274" alt="Crocodile comparison: input with a drag from the left, ours, PhysCtrl, and Force Prompting." fetchpriority="high"></div></figure>
-        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/1f9b8-200d-2642-fe0f-twemoji_left.gif" width="1458" height="274" alt="Superhero comparison: input with a drag from the left, ours, PhysCtrl, and Force Prompting." loading="lazy"></div></figure>
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/kite_top.gif" width="1824" height="274" alt="Kite animation comparison with a drag from the top." loading="lazy"></div></figure>
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/crab_right.gif" width="1824" height="274" alt="Crab comparison: input with a drag from the right, ours, PhysCtrl, Force Prompting, and AniClipart." loading="lazy"></div></figure>
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/1f469-200d-1f9af-twemoji_left.gif" width="1458" height="274" alt="Person with a white cane comparison: input with a drag from the left, ours, PhysCtrl, and Force Prompting." loading="lazy"></div></figure>
         <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/1f4b0-twemoji_top.gif" width="1458" height="274" alt="Money bag comparison: input with a drag from the top, ours, PhysCtrl, and Force Prompting." loading="lazy"></div></figure>
-        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/1f69a-twemoji_right.gif" width="1458" height="274" alt="Delivery truck comparison: input with a drag from the right, ours, PhysCtrl, and Force Prompting." loading="lazy"></div></figure>
-        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/1f691-twemoji_right.gif" width="1458" height="274" alt="Ambulance comparison: input with a drag from the right, ours, PhysCtrl, and Force Prompting." loading="lazy"></div></figure>
-        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/1f35c-twemoji_right.gif" width="1458" height="274" alt="Noodles comparison: input with a drag from the right, ours, PhysCtrl, and Force Prompting." loading="lazy"></div></figure>
         <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/1f645-1f3fb-200d-2640-fe0f-twemoji_left.gif" width="1458" height="274" alt="Person gesturing comparison: input with a drag from the left, ours, PhysCtrl, and Force Prompting." loading="lazy"></div></figure>
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/man_boxing_bottom.gif" width="1824" height="274" alt="Boxer comparison: input with a drag from the bottom, ours, PhysCtrl, Force Prompting, and AniClipart." loading="lazy"></div></figure>
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/turtle_bottom.gif" width="1824" height="274" alt="Turtle comparison: input with a drag from the bottom, ours, PhysCtrl, Force Prompting, and AniClipart." loading="lazy"></div></figure>
       </div>
       <p class="mobile-hint">Swipe across each figure to view all methods.</p>
     </section>
 
+    <section class="results-section ablation-section" id="ablation" aria-labelledby="ablation-title">
+      <div class="section-heading"><span class="section-number">03 / ABLATION STUDY</span><h2 id="ablation-title">Ablation Study</h2><p>We compare our full method (λ = 0.25) with variants without guidance (λ = 0), without stiffness (all soft), and without the relation graph (global TPS).</p></div>
+      <div class="comparison-list">
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/ablation/1f469-200d-1f9af-twemoji_left.gif" width="1824" height="274" alt="Ablation comparison: input and drag, full method, without guidance, without stiffness, and without the relation graph." loading="lazy"></div></figure>
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/ablation/balloon_dog_bottom.gif" width="1824" height="274" alt="Ablation comparison: input and drag, full method, without guidance, without stiffness, and without the relation graph." loading="lazy"></div></figure>
+      </div>
+      <p class="mobile-hint">Swipe across each figure to view all variants.</p>
+    </section>
+
     <section class="results-section guidance-section" id="guidance" aria-labelledby="guidance-title">
-      <div class="section-heading"><span class="section-number">02 / GUIDANCE STRENGTH</span><h2 id="guidance-title">Effect of the guidance strength</h2><p>A comparison of guidance at strengths of 0 (vanilla), 0.25×, 0.5×, and 1×, with drags from the top, bottom, left, and right.</p></div>
+      <div class="section-heading"><span class="section-number">04 / GUIDANCE STRENGTH</span><h2 id="guidance-title">Effect of the guidance strength</h2><p>A comparison of guidance at strengths of 0 (vanilla), 0.25×, 0.5×, and 1×, with drags from the top, bottom, left, and right.</p></div>
       <figure class="guidance-card"><div class="media-scroll"><img src="assets/palm_compare.gif" width="1310" height="1240" alt="Palm tree animation grid. Columns: vanilla, guidance times 0.25, guidance times 0.5, and guidance times 1. Rows: top, bottom, left, and right." loading="lazy"></div><figcaption>Columns vary the guidance strength; rows vary the drag direction.</figcaption></figure>
       <p class="mobile-hint">Swipe across the figure to view all guidance strengths.</p>
     </section>

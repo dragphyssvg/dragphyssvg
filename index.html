@@ -17,17 +17,33 @@
       <div class="hero-links"><a class="primary-link" href="#animations">Explore the results <span aria-hidden="true">↘</span></a></div>
     </section>
 
-    <section class="results-section" id="animations" aria-labelledby="animations-title">
-      <div class="section-heading"><span class="section-number">01 / ANIMATION RESULTS</span><h2 id="animations-title">Animation Results: Ground Collisions</h2><p>Ground collision results under gravity using a sand material model.</p></div>
+    <section class="results-section" id="animations" aria-labelledby="materials-title">
+      <div class="section-heading"><span class="section-number">01 / ANIMATION RESULTS</span><h2 id="materials-title">Animation Results: Different Materials</h2><p>The same SVG objects are simulated using four material models (elastic, plasticine, sand, and rigid) under gravity with ground collisions.</p></div>
+      <div class="comparison-list" aria-labelledby="materials-title">
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/material/1f4b0-twemoji_material_compare_rigidity.gif" width="2160" height="492" alt="Money bag animation under gravity with ground collisions, comparing elastic, plasticine, sand, and rigid material models." fetchpriority="high"></div></figure>
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/material/balloon_dog_material_compare_rigidity.gif" width="2160" height="401" alt="Balloon dog animation under gravity with ground collisions, comparing elastic, plasticine, sand, and rigid material models." loading="lazy"></div></figure>
+        <figure class="comparison-card"><div class="media-scroll"><img src="assets/material/snowman_material_compare_rigidity.gif" width="2160" height="475" alt="Snowman animation under gravity with ground collisions, comparing elastic, plasticine, sand, and rigid material models." loading="lazy"></div></figure>
+      </div>
+      <p class="mobile-hint">Swipe across each figure to view all materials.</p>
+      <div class="section-heading" style="margin-top:48px"><h2 id="force-directions-title">Animation Results: Diverse Force Directions and Magnitudes</h2></div>
+      <div class="force-directions-grid" aria-labelledby="force-directions-title">
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/multi-directions/1f35c-twemoji.gif" width="756" height="384" alt="Noodle bowl: animation with varying force directions and magnitudes." loading="lazy"></div></figure>
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/multi-directions/balloon.gif" width="756" height="384" alt="Balloon: animation with varying force directions and magnitudes." loading="lazy"></div></figure>
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/multi-directions/balloon_2.gif" width="756" height="384" alt="Balloon, second example: animation with varying force directions and magnitudes." loading="lazy"></div></figure>
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/multi-directions/shrimp.gif" width="756" height="384" alt="Shrimp: animation with varying force directions and magnitudes." loading="lazy"></div></figure>
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/multi-directions/snail.gif" width="756" height="384" alt="Snail: animation with varying force directions and magnitudes." loading="lazy"></div></figure>
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/multi-directions/woman_exercise.gif" width="756" height="384" alt="Woman exercising: animation with varying force directions and magnitudes." loading="lazy"></div></figure>
+      </div>
+      <div class="section-heading" style="margin-top:48px"><h2 id="animations-title">Animation Results: Ground Collisions</h2><p>SVG objects are simulated using a sand material model under gravity with ground collisions.</p></div>
       <div class="animation-grid">
-        <figure class="animation-card"><div class="media-scroll"><img src="assets/animations/1f419-twemoji_anim.gif" width="512" height="512" alt="Octopus animation under gravity using a sand material model." fetchpriority="high"></div></figure>
+        <figure class="animation-card"><div class="media-scroll"><img src="assets/animations/1f419-twemoji_anim.gif" width="512" height="512" alt="Octopus animation under gravity using a sand material model." loading="lazy"></div></figure>
         <figure class="animation-card"><div class="media-scroll"><img src="assets/animations/balloon_dog_anim.gif" width="512" height="512" alt="Balloon dog animation under gravity using a sand material model." loading="lazy"></div></figure>
         <figure class="animation-card"><div class="media-scroll"><img src="assets/animations/snowman_anim.gif" width="512" height="512" alt="Snowman animation under gravity using a sand material model." loading="lazy"></div></figure>
       </div>
     </section>
 
     <section class="results-section" id="comparison" aria-labelledby="comparison-title">
-      <div class="section-heading"><span class="section-number">02 / COMPARISONS</span><h2 id="comparison-title">Comparison with other methods</h2><p>We compare against <strong>PhysCtrl</strong>, <strong>Force Prompting</strong>, and <strong>AniClipart</strong>. <strong>PhysCtrl</strong> and <strong>Force Prompting</strong> generate videos, while <strong>Ours</strong> and <strong>AniClipart</strong> generate SVG animations.</p></div>
+      <div class="section-heading"><span class="section-number">02 / COMPARISONS</span><h2 id="comparison-title">Comparison with Other Methods</h2><p>We compare our method with <strong>PhysCtrl</strong>, <strong>Force Prompting</strong>, and <strong>AniClipart</strong>. <strong>PhysCtrl</strong> and <strong>Force Prompting</strong> generate videos, while <strong>our method</strong> and <strong>AniClipart</strong> generate SVG animations.</p></div>
       <div class="comparison-list">
         <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/kite_top.gif" width="1824" height="274" alt="Kite animation comparison with a drag from the top." loading="lazy"></div></figure>
         <figure class="comparison-card"><div class="media-scroll"><img src="assets/viz_comparison/crab_right.gif" width="1824" height="274" alt="Crab comparison: input with a drag from the right, ours, PhysCtrl, Force Prompting, and AniClipart." loading="lazy"></div></figure>
@@ -50,7 +66,7 @@
     </section>
 
     <section class="results-section guidance-section" id="guidance" aria-labelledby="guidance-title">
-      <div class="section-heading"><span class="section-number">04 / GUIDANCE STRENGTH</span><h2 id="guidance-title">Effect of the guidance strength</h2><p>A comparison of guidance at strengths of 0 (vanilla), 0.25×, 0.5×, and 1×, with drags from the top, bottom, left, and right.</p></div>
+      <div class="section-heading"><span class="section-number">04 / GUIDANCE STRENGTH</span><h2 id="guidance-title">Effect of Guidance Strength</h2><p>We compare guidance strengths of 0 (vanilla), 0.25×, 0.5×, and 1×, with drags from the top, bottom, left, and right.</p></div>
       <figure class="guidance-card"><div class="media-scroll"><img src="assets/palm_compare.gif" width="1310" height="1240" alt="Palm tree animation grid. Columns: vanilla, guidance times 0.25, guidance times 0.5, and guidance times 1. Rows: top, bottom, left, and right." loading="lazy"></div><figcaption>Columns vary the guidance strength; rows vary the drag direction.</figcaption></figure>
       <p class="mobile-hint">Swipe across the figure to view all guidance strengths.</p>
     </section>
